@@ -82,9 +82,51 @@ canvas {
     display: flex;
   flex-wrap: wrap;
 }
-.item-con{
-    width: 50%;
+
+@media  (min-width: 350px) and (max-width:950px) {
+    .project-con{
+        justify-content: center;
+        margin: 0 auto;
+       align-self: center;
+    }
+    .project-con img{
+        width: 200%;
+        height: 300%;
+    }
+    .project-item{
+        width: 100% !important;
+       
+        
+    }
+ 
+    .pro-attr{
+        display: flex;
+        padding: 4px;
+        font-size: 2vw !important;
+        margin-left: 10%;
+        
+    }
+
+    .project-des{
+        text-align: left;
+        display: flex;
+        padding:5px ;
+        font-size: 4vw; 
+        text-decoration: none;
+        width: 100%;
+        height: 40%;
+        
+    }
+    .display{
+        display: block !important;
+    }
+    .display img{
+       width: 100% !important;
+    }
+    
 }
+
+
 .pro-attr{
     display: flex;
     padding: 2px;

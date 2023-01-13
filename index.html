@@ -84,7 +84,7 @@
   <div class="w3-content w3-justify w3-text-white w3-padding-64" id="about">
     <h2 class="w3-text-light-grey">Hello!, I'm Daniel Udofa</h2>
     <hr style="width:200px" class="w3-opacity">
-    <p class="indent">A Frontend Developer from Nigeria. I enjoy building fun designs on Codepen and time-saving projects on Github. I also publish beginner-friendly articles on Hashnode.
+    <p class="indent">A web developer with over 1 year of front end experience and passion for responsive website design from Nigeria.  I also publish beginner-friendly articles on Hashnode.
        <br>
        Web3/ Blockchain Community Management has also been of interest to me, with 4 years experience working for Awesome Blockchain Projects.
 <br> 
@@ -142,7 +142,7 @@ and circumstance, attaining professional distinction and proficiency.</p><br>
     </button></a>
 
       <!-- Portfolio Section -->
-  <div class="w3-row-padding" id="projects">
+  <div class="w3-row-padding  " id="projects">
     <h2 class="w3-text-light-grey">My Projects</h2>
     <hr style="width:200px" class="w3-opacity">
 
@@ -156,14 +156,14 @@ and circumstance, attaining professional distinction and proficiency.</p><br>
              
             <img src="/images/Github.png" style="width:100%">
             <span class="project-des">
-                <p>GitHub API fetch with React</p>
-                
+                <p>GitHub API fetch </p>
+                <div>
                     <ul class="pro-attr">
                         <li style="color: white; background-color: skyblue;border-radius: 10%; padding: 2px;">
-                            React</li>
-                        <li style="color: white; background-color: red; border-radius: 10%; padding: 2px;">API</li>
+                            HTML</li>
+                        <li style="color: white; background-color: rgba(255, 0, 0, 0.45); border-radius: 10%; padding: 2px;">CSS</li>
                     </ul>
-                
+                </div>
             </span>
         </div>
            
@@ -217,7 +217,7 @@ and circumstance, attaining professional distinction and proficiency.</p><br>
             <p>Codelite Homepage</p>
             <div>
                 <ul class="pro-attr">
-                    <li style="color: black; background-color: yellow;border-radius: 10%; padding: 2px;">
+                    <li style="color: rgb(255, 255, 255); background-color: rgb(251, 0, 255);border-radius: 10%; padding: 2px;">
                         HTML</li>
                     <li style="color: white; background-color: red; border-radius: 10%; padding: 2px;">CSS</li>
                 </ul>
@@ -233,7 +233,7 @@ and circumstance, attaining professional distinction and proficiency.</p><br>
             <div>
             <img src="/images/web3.png" style="width:100%">
             <div class="project-des">
-                <p>Web3 project Homepage</p>
+                <p>Web3 Homepage</p>
                 <div>
                     <ul class="pro-attr">
                         <li style="color: black; background-color: yellow;border-radius: 10%; padding: 2px;">
@@ -332,21 +332,24 @@ and circumstance, attaining professional distinction and proficiency.</p><br>
     <h2 class="w3-text-light-grey">Contact Me</h2>
     <hr style="width:200px" class="w3-opacity">
 
-    <div class="w3-section">
+    <div class="w3-section w3-text-white">
       <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Ilorin, Nigeria</p>
       <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +234 7019027572</p>
       <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: danieludofa452@gmail.com</p>
     </div><br>
-    <p>Let's get in touch. Send me a message:</p>
+    <p class="w3-text-white">Let's get in touch. Send me a message:</p>
 
-    <form action="/action_page.php" target="_blank">
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+    <form action="https://getform.io/f/0dcb8139-79eb-4de1-a5e7-9fc2e8da9ca1" method="post" target="_blank">
+      <p><input id="name" class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input id="email" class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input id="subject" class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input id="message" class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
       <p>
-        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+        <button id="btn" class="w3-button w3-red w3-padding-large" type="submit">
           <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+        <button type="reset" class="w3-button w3-light-grey w3-padding-large">
+            <i style="font-size: 15px; padding:5px; " class="fa fa-trash-o"></i>Reset Form
         </button>
       </p>
     </form>
@@ -367,6 +370,7 @@ and circumstance, attaining professional distinction and proficiency.</p><br>
 
 <!-- END PAGE CONTENT -->
 </div>
+<script src="index.js"></script>
 <script src="particles.js"></script>
     <script src="app.js"></script>
 </body>
