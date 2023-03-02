@@ -1,3 +1,7 @@
+html{
+    scroll-behavior:  smooth ;
+   
+}
 
 .padding {
     padding: 0.5rem;
@@ -7,23 +11,44 @@
 #myNavbar{
    
 }
+.icon-con{
+    border-radius: 50px;
+    animation: blinking 1s reverse infinite ;
+    width: 21vw;
+    position: -webkit-sticky;
+    margin: 0 auto;
+    padding: 5px;
+    position: sticky;
+    position: -webkit-sticky;
+    z-index: 1;
+    top: 40px;
+    margin-bottom: 4rem;
+    
+}
 
 .social-icons {
-    background-color: rgba(0, 0, 0, 0.705);
+    background-color: rgba(191, 11, 11, 0.543);
     font-size: 2rem;
     color: white;
-    margin: 0 auto;
-    margin-bottom: 4rem;
+   
+   
     text-align: center;
     width: 20vw;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 40px;
-    z-index: 1;
+   
+    /* top: 40px; */
+   
     border-radius: 50px;
+   
   
  
 }
+@keyframes blinking {
+    from{border: 2px solid rgb(247, 247, 247)} 
+    50% { border:2px solid rgba(215, 42, 42, 0.421);box-shadow: 5px rgba(0, 0, 255, 0.401)}
+    100% { border:2px solid rgba(215, 42, 42, 0.869);box-shadow: 5px rgba(0, 0, 255, 0.401);
+
+    }
+  }
 .social-icons i{
     transition:  0.5s ease-in-out;
 }
@@ -104,9 +129,24 @@ canvas {
 }
 
 @media  (min-width: 350px) and (max-width:950px) {
+   
+    .icon-con{
+        border-radius: 50px;
+        animation: blinking 1s reverse infinite ;
+        width: 63vw;
+        position: -webkit-sticky;
+        margin: 0 auto;
+        padding: 5px;
+        position: sticky;
+        position: -webkit-sticky;
+        z-index: 1;
+        top: 40px;
+        margin-bottom: 4rem;
+        
+    }
     .social-icons {
         
-        width: 80vw;
+        width: 60vw;
         
     }
     .project-con{
