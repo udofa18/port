@@ -3,16 +3,18 @@ html{
    
 }
 
+
 .padding {
     padding: 0.5rem;
 }
 .overflow{
     overflow-x: hidden;
 }
-
-#myNavbar{
-   
+a{
+    text-decoration: none
 }
+
+
 .icon-con{
     border-radius: 50px;
     animation: blinking 1s reverse infinite ;
@@ -21,9 +23,9 @@ html{
     margin: 0 auto;
     padding: 5px;
     position: sticky;
-    position: -webkit-sticky;
     z-index: 1;
     top: 40px;
+    height: 60px;
     margin-bottom: 4rem;
     
 }
