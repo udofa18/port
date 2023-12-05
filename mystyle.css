@@ -116,8 +116,8 @@ canvas {
     line-height: 3rem;
 }
 .project-des{
-    position:absolute;
-    background-color:rgba(111, 4, 4, 0.485);
+    /* position:absolute; */
+    /* background-color:rgba(111, 4, 4, 0.485); */
     bottom: 0%;
     left: 0;
     padding:20px ;
@@ -183,7 +183,7 @@ canvas {
         font-size: 4vw; 
         text-decoration: none;
         width: 100%;
-        height: 40%;
+        height: 100%;
         
     }
     .display{
