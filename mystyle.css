@@ -137,7 +137,7 @@ canvas {
     .icon-con{
         border-radius: 50px;
         animation: blinking 1s reverse infinite ;
-        width: 63vw;
+        width: 100%;
         position: -webkit-sticky;
         margin: 0 auto;
         padding: 5px;
@@ -150,7 +150,7 @@ canvas {
     }
     .social-icons {
         
-        width: 61vw;
+        width: 100%;
         
     }
     .project-con{
